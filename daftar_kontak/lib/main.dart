@@ -87,6 +87,7 @@ class MyApp extends StatelessWidget {
     list_nama.sort((a, b) => a["nama"].compareTo(b["nama"]));
     
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(title: Text("Daftar Kontak")),
         body: ListView(
@@ -118,7 +119,7 @@ class MyApp extends StatelessWidget {
                     Flexible(
                       fit: FlexFit.tight,
                       child: Container(
-                          margin: EdgeInsets.all(30),
+                          margin: EdgeInsets.all(25),
                           width: 100,
                           height: 120,
                           color: Colors.white,
