@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
     },
     {
       'nama': "Muhammad Riyadh A",
-      'email': 'oryx@gmail.com',
+      'email': 'arap@gmail.com',
       'nohp': '+62 823-2373-1302',
       'foto': 'profil.jpg',
     },
@@ -68,7 +68,7 @@ class MyApp extends StatelessWidget {
     },
     {
       'nama': "Figo Perdana Putra",
-      'email': 'danaisthebes@gmail.com',
+      'email': 'danas@gmail.com',
       'nohp': '+62 812-1619-5308',
       'foto': 'profil.jpg',
     },
